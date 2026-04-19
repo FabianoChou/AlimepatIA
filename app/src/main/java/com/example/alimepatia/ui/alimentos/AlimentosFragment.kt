@@ -6,6 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
 import androidx.fragment.app.Fragment
+import androidx.navigation.fragment.findNavController
 import com.example.alimepatia.databinding.FragmentAlimentosBinding
 
 class AlimentosFragment : Fragment() {
@@ -23,6 +24,10 @@ class AlimentosFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+
+        binding.btnVoltar.setOnClickListener {
+            findNavController().popBackStack()
+        }
 
         binding.fabAddAlimento.setOnClickListener {
             Toast.makeText(requireContext(), "Adicionar alimento em breve!", Toast.LENGTH_SHORT).show()
