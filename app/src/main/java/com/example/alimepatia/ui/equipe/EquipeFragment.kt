@@ -25,10 +25,6 @@ class EquipeFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        binding.btnVoltar.setOnClickListener {
-            findNavController().popBackStack()
-        }
-
         binding.fabAddMembro.setOnClickListener {
             Toast.makeText(requireContext(), "Adicionar membro em breve!", Toast.LENGTH_SHORT).show()
         }

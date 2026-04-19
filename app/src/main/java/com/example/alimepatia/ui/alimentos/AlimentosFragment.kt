@@ -25,10 +25,6 @@ class AlimentosFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        binding.btnVoltar.setOnClickListener {
-            findNavController().popBackStack()
-        }
-
         binding.fabAddAlimento.setOnClickListener {
             Toast.makeText(requireContext(), "Adicionar alimento em breve!", Toast.LENGTH_SHORT).show()
         }

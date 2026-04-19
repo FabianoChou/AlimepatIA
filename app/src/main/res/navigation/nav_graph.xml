@@ -41,4 +41,10 @@
         android:name="com.example.alimepatia.ui.equipe.EquipeFragment"
         android:label="@string/equipe_title"
         tools:layout="@layout/fragment_equipe" />
+
+    <fragment
+        android:id="@+id/perfilFragment"
+        android:name="com.example.alimepatia.ui.perfil.PerfilFragment"
+        android:label="Usuário"
+        tools:layout="@layout/fragment_perfil" />
 </navigation>

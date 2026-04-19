@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/dashboardFragment"
+        android:icon="@android:drawable/ic_menu_home"
+        android:title="Início" />
+        
+    <item
+        android:id="@+id/alimentosFragment"
+        android:icon="@android:drawable/ic_menu_recent_history"
+        android:title="Estoque" />
+        
+    <item
+        android:id="@+id/equipeFragment"
+        android:icon="@android:drawable/ic_menu_myplaces"
+        android:title="Equipe" />
+        
+    <item
+        android:id="@+id/perfilFragment"
+        android:icon="@android:drawable/ic_menu_info_details"
+        android:title="Usuário" />
+</menu>
