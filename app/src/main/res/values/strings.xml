@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">AlimepatIA</string>
+    <string name="login_title">Acesso</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Senha</string>
+    <string name="btn_login">Entrar</string>
+    <string name="btn_register">Cadastrar</string>
+    <string name="dashboard_title">Visão Geral</string>
+    <string name="alimentos_title">Estoque</string>
+    <string name="equipe_title">Liderança Empática</string>
+</resources>
