@@ -17,4 +17,4 @@ Este é o repositório do **AlimepatIA**, um aplicativo focado na liderança emp
 - [ ] **Acompanhamento de Equipe**: Registro de ações empáticas e métricas
 
 ---
-*Desenvolvido em parceria com ferramentas AI (Antigravity).*
+
